@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+# shortenURL
+=======
 # ShortenURL
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
@@ -11,10 +14,15 @@
 해당 프로젝트는 git과 github으로 버전관리 되고 있으며, github을 통해 오픈소스로 공개되었습니다.
 
 ## install project
+```bash
     git clone <본인repository>
-
+```
 ### install dependency
-    pip install "fastapi[all]"
-
+ ```bash
+    pip install "fastapgi[all]"
+```
 ## run app
+```bash
     uvicorn main:app --reload
+```    
+>>>>>>> 3f20565 (initial commit)
